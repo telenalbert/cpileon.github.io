@@ -1,10 +1,94 @@
+body{
+    background-color: rgb(15, 15, 15);
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.navbar{
+    background: rgb(16, 16, 16);
+}
+
+.nav-link{
+    color: rgb(152, 152, 152);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover{
+    color: rgb(67, 67, 67);
+}
+
 .desc{
-    background-color: aqua;
-    height: 100%;
+    color: white;
     margin: 0;
     padding: 0;
 }
 
+.desc .datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.desc .datos h1 {
+    font-size: 4rem;
+}
+
+.noise {
+    width: 100%;
+    background:
+    radial-gradient(circle at 50% 55%, rgba(28, 22, 22, 0.9), rgb(122, 122, 122)),
+      url("../imgs/noise.svg");
+    filter: contrast(300%) brightness(30%); 
+}
+
+.card, .formulario{
+    background-color: rgb(43, 43, 43);
+}
+
+span{
+    background-color: rgb(122, 122, 122);
+    border-style: dotted;
+    font-weight: 600;
+    padding: 3px;
+    margin: 3px;
+}
+
+.portafolio img {
+    border-radius: 2rem;
+    filter: brightness(70%);
+}
+
+.portafolio img:hover {
+    border-radius: 2rem;
+    filter: contrast(100%)
+}
+
+.card p{
+    color: white;
+}
+
+.card-title{
+    color: white;
+    font-weight: 600;
+}
+
+.form-control{
+    background-color: black;
+}
+
 .formulario{
-    background-color: blueviolet;
+    background: rgb(54,54,54);
+    background: linear-gradient(0deg, rgb(43, 43, 43) 0%, rgba(15,15,15,1) 100%);
+}
+
+.formulario img{
+    width: 60%;
+}
+
+.formulario h3{
+    color: rgb(135, 135, 135);
+    font-size: 2rem;
+    font-weight: 600;
 }
