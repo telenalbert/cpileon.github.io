@@ -35,6 +35,14 @@ body{
     font-size: 4rem;
 }
 
+.desc i{
+    color: white;
+}
+
+.desc i:hover{
+    color: rgb(255, 119, 0);
+}
+
 .noise {
     width: 100%;
     background:
