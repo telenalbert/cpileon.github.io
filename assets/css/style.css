@@ -1,20 +1,20 @@
 body{
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(201, 144, 65);
     font-family: 'Inter Tight', sans-serif;
 }
 
 .navbar{
-    background: rgb(16, 16, 16);
+    background: rgb(238, 178, 81);
 }
 
 .nav-link{
-    color: rgb(152, 152, 152);
+    color: rgb(3, 2, 2);
     font-weight: 600;
     font-size: 1.5rem;
 }
 
 .nav-link:hover{
-    color: rgb(67, 67, 67);
+    color: rgb(152, 51, 51);
 }
 
 .desc{
@@ -87,7 +87,7 @@ span{
 }
 
 .formulario{
-    background: rgb(54,54,54);
+    background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgb(43, 43, 43) 0%, rgba(15,15,15,1) 100%);
 }
 
